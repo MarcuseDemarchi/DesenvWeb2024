@@ -1,7 +1,10 @@
-
+/*
+Classe utiliza '.'
+Id utiliza '#'
+*/
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: grey;
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/04/12/43/texture-1306790_1280.jpg);
     margin: 0;
     padding: 0;
 }
@@ -9,22 +12,29 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #756666;
+    box-shadow: 0 0 10px rgba(67, 48, 70, 0.5);
     border-radius: 8px;
 }
-.form-group {
+
+h1{
+    text-align: center;
+}
+
+.form-name,.form-contact,.form-endereco {
     margin-bottom: 15px;
 }
+
 label {
     display: block;
     margin-bottom: 5px;
 }
+
 select {
-    width: 100%;
+    width: 40%;
     padding: 8px;
-    box-sizing: border-box;
 }
+
 button {
     padding: 10px 20px;
     background-color: #007BFF;
@@ -34,5 +44,5 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: rgba(67, 48, 70, 0.5);
 }
