@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Notas</title>
+    <link rel="stylesheet" href="StyleCalculadora.css">
+</head>
+<body>
+
+    <h1>Tabela de Notas dos Alunos</h1>
+    <table id="tabelaNotas">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>9</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- Linha totalizadora será inserida aqui -->
+        </tfoot>
+    </table>
+
+    <button onclick="adicionarLinhaTotalizadora()">Adicionar Linha Totalizadora</button>
+    <button onclick="adicionarColunaTotalizadora()">Adicionar Coluna Totalizadora</button>
+
+    <script src="MainTabela.js"></script>
+
+</body>
+</html>
