@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Simples</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Aula 05 - Calculadora Simples</title>
+    <link rel="stylesheet" href="StyleCalculadora.css">
 </head>
 <body>
 
     <div class="calculadora">
         <div class="tela" id="tela">0</div>
-        <button class="botao botao-cinza" onclick="limpar()">AC</button>
-        <button class="botao botao-cinza" onclick="inverterSinal()">±</button>
-        <button class="botao botao-cinza" onclick="percentual()">%</button>
-        <button class="botao botao-laranja" onclick="definirOperacao('/')">÷</button>
+        <button class="botao-clear" onclick="limpar()">AC</button>
+        <button class="botao-invert" onclick="inverterSinal()">±</button>
+        <button class="botao-percentual" onclick="percentual()">%</button>
+        <button class="botao-divisao" onclick="definirOperacao('/')">÷</button>
 
         <button class="botao" onclick="adicionarNumero('7')">7</button>
         <button class="botao" onclick="adicionarNumero('8')">8</button>
         <button class="botao" onclick="adicionarNumero('9')">9</button>
-        <button class="botao botao-laranja" onclick="definirOperacao('*')">×</button>
+        <button class="botao-multiplicacao" onclick="definirOperacao('*')">×</button>
 
         <button class="botao" onclick="adicionarNumero('4')">4</button>
         <button class="botao" onclick="adicionarNumero('5')">5</button>
         <button class="botao" onclick="adicionarNumero('6')">6</button>
-        <button class="botao botao-laranja" onclick="definirOperacao('-')">−</button>
+        <button class="botao-subtracao" onclick="definirOperacao('-')">−</button>
 
         <button class="botao" onclick="adicionarNumero('1')">1</button>
         <button class="botao" onclick="adicionarNumero('2')">2</button>
         <button class="botao" onclick="adicionarNumero('3')">3</button>
-        <button class="botao botao-laranja" onclick="definirOperacao('+')">+</button>
+        <button class="botao-soma" onclick="definirOperacao('+')">+</button>
 
         <button class="botao" onclick="adicionarNumero('0')">0</button>
         <button class="botao" onclick="adicionarNumero('.')">.</button>
-        <button class="botao botao-igual botao-laranja" onclick="calcular()">=</button>
+        <button class="botao-igual" onclick="calcular()">=</button>
     </div>
 
-    <script src="main.js"></script>
-
+    <script src="mainCalculadora.js"></script>
 </body>
 </html>
