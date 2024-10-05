@@ -1,0 +1,68 @@
+html,body{
+    height:100%;
+    display: flex;
+    margin:0px;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    background-color:rgb(83 83 83);
+}
+
+*{    
+    border-radius:10px;
+    margin:10px;
+}
+
+#containerMain{
+    box-shadow: 2px 2px 100px 10px white;
+    background-color:green;
+    width:100%;
+    text-align:center;
+}
+
+#containerEnunciado,#formMain{
+    background-color: rgb(49 161 49);
+}
+
+#containerEnunciado{
+    text-align:left;
+}
+
+#formMain,#Calcular{
+    font-family:cursive;
+    font-size:20px;
+    border-radius:10px;
+}
+
+#Resultado{
+    background-color : White;
+    text-align:center;
+    justify-content:center;
+}
+
+#formMain{
+    padding:10px;
+    display: flex;
+}
+
+#Calcular{
+    width:100px;
+    height:30px;
+}
+
+#tablesForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+th,td{
+    border:1px solid black;
+}
+
+#Result{
+    background-color :white;
+}
+
+button{
+    background-color:gray;
+}
