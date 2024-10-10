@@ -1,0 +1,46 @@
+html,body{
+    height:100%;
+    display: flex;
+    margin:0px;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    background-color:rgb(83 83 83);
+}
+
+#containerMain,#containerEnunciado,#formMain,input,#Calcular{
+    border-radius:10px;
+    margin:10px;
+}
+
+#containerMain{
+    background-color:green;
+    width:100%;
+    text-align:center;
+}
+
+#containerEnunciado,#formMain{
+    background-color: rgb(49 161 49);
+}
+
+#containerEnunciado{
+    text-align:left;
+}
+
+#formMain,#Calcular{
+    font-family:cursive;
+    font-size:20px;
+    border-radius:10px;
+}
+
+#Resultado{
+    background-color : White;
+    text-align:center;
+    justify-content:center;
+    border-radius:10px;
+}
+
+#Calcular{
+    width:100px;
+    height:30px;
+}
